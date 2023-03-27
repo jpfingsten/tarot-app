@@ -3,10 +3,10 @@ import Card from "./Card";
 
 function CardLayout() {
     return (
-        <div className="card-layout">
+      <div className="card-layout">
         <Card />
-        </div>
-    )
+      </div>
+    );
 }
 
 export default CardLayout;

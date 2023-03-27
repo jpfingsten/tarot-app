@@ -8,13 +8,23 @@ h1 {
     font-family: "Montserrat", sans-serif;
 }
 
+main {
+    margin: 1rem;
+}
+
+.select-reading {
+    margin: .5rem 0;
+}
+
 .card-layout {
     display: flex;
+    justify-content: center;
+    margin: 2rem 0;
 }
 
 .card {
-    margin: 2rem 1rem;
-    outline: 3px dashed red;
+    margin: 0 1rem;
+    outline: 3px dashed steelblue;
     height: 250px;
     width: 175px;
     border-radius: 20px;

@@ -4,11 +4,11 @@ import ReadingArea from "./ReadingArea";
 
 function App() {
     return (
-      <div>
+      <main>
         <h1>Tarot App</h1>
         <ReadingSelection />
         <ReadingArea />
-      </div>
+      </main>
     );
 }
 
