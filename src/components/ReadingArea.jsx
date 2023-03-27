@@ -1,10 +1,13 @@
 import React from "react";
-import CardLayout from "CardLayout";
+import CardLayout from "./CardLayout";
 
 function ReadingArea() {
-    <div className="reading-area">
+
+    return (
+      <div className="reading-area">
         <CardLayout />
-    </div>
+      </div>
+    );
 }
 
 export default ReadingArea;
